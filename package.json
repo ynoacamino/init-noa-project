@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "initer of projects",
   "main": "dist/index.js",
-  "bin": "dist/index.js",
+  "bin": {
+    "init-noa-project": "dist/index.js"
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ynoacamino/init-noa-project.git"
+    "url": "git+https://github.com/ynoacamino/init-noa-project.git"
   },
   "author": "ynoacamino",
   "license": "ISC",

@@ -1,0 +1,29 @@
+{
+  "name": "init-noa-project",
+  "version": "1.0.0",
+  "description": "initer of projects",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ynoacamino/init-noa-project.git"
+  },
+  "author": "ynoacamino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynoacamino/init-noa-project/issues"
+  },
+  "homepage": "https://github.com/ynoacamino/init-noa-project#readme",
+  "dependencies": {
+    "inquirer": "^9.2.13"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "files": [
+    "dist"
+  ]
+}

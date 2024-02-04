@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "initer of projects",
   "main": "dist/index.js",
+  "bin": "dist/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
